@@ -6,15 +6,17 @@
 body {
   font-family: 'Bungee', cursive;
 }
-
 h1 {
   text-align: center;
   background: lightblue;
+  height: 6vh;
+  width: 100vw;
+  font-size: 2rem;
 }
 .image {
   background-image: url('../assets/images/night.jpg');
-  height: 580px;
-  width: 100%;
+  height: 93vh;
+  width: 100vw;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
