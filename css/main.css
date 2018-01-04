@@ -6,16 +6,16 @@
 body {
   font-family: 'Bungee', cursive;
 }
-h1 {
+
+p {
   text-align: center;
-  background: lightblue;
-  height: 6vh;
-  width: 100vw;
-  font-size: 2rem;
+  background: rgb(173, 216, 230);
+  font-size: 1em;
+  height: 5vh;
 }
 .image {
   background-image: url('../assets/images/night.jpg');
-  height: 93vh;
+  height: 95vh;
   width: 100vw;
   background-size: cover;
   background-position: center;
@@ -23,17 +23,15 @@ h1 {
 }
 .cat {
   background-image: url('../assets/images/kitten-small.png');
-  height: 230px;
+  height: 44vh;
   background-position: center;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
-  top: 57%
+  top: 50vh;
 }
-
 @media (min-width: 728px) {
-  h1 {
-    text-align: center;
+  p {
     background: salmon;
   }
   .image {
@@ -44,9 +42,9 @@ h1 {
   }
 }
 @media (min-width: 992px) {
-  h1 {
-    text-align: center;
+  p {
     background: yellow;
+    font-size: 1em;
   }
   .image {
     background-image: url('../assets/images/sunny-day.jpg');
@@ -55,3 +53,6 @@ h1 {
     background-image: url('../assets/images/kitten-medium.png');
   }
 }
+
+
+
