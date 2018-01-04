@@ -6,12 +6,12 @@
 body {
   font-family: 'Bungee', cursive;
 }
-
 p {
   text-align: center;
   background: rgb(173, 216, 230);
   font-size: 1em;
   height: 5vh;
+  width: 100vw;
 }
 .image {
   background-image: url('../assets/images/night.jpg');
@@ -28,7 +28,7 @@ p {
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
-  top: 50vh;
+  top: 48vh;
 }
 @media (min-width: 728px) {
   p {
@@ -44,9 +44,11 @@ p {
 @media (min-width: 992px) {
   p {
     background: yellow;
-    font-size: 1em;
+    font-size: 1.5em;
+    height: 7vh;    
   }
   .image {
+    height: 93vh;    
     background-image: url('../assets/images/sunny-day.jpg');
   }
   .cat {
